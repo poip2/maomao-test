@@ -61,6 +61,7 @@
       <li><code>$state</code> - 响应式状态声明</li>
       <li><code>$derived</code> - 自动计算派生值</li>
       <li><code>$effect</code> - 响应式副作用</li>
+      <li><code>onclick</code> - 简化事件处理器（无需 <code>on:</code> 前缀）</li>
       <li><code>bind:value</code> - 双向绑定</li>
     </ul>
   </div>
