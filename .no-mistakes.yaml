@@ -33,6 +33,4 @@ auto_fix:
 
 # 从本地 AI 会话中提取用户意图
 intent:
-  enabled: true
-  threshold: 0.2
-  slack_days: 3
+  enabled: false  # 暂时禁用，避免卡住
