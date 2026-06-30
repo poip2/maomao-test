@@ -1,7 +1,7 @@
 # .no-mistakes.yaml
 
-# 使用的 AI Agent（auto 会自动检测）
-agent: auto
+# 使用的 AI Agent
+agent: pi
 
 # 验证命令
 commands:
