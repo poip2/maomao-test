@@ -1,0 +1,38 @@
+# .no-mistakes.yaml
+
+# 使用的 AI Agent（auto 会自动检测）
+agent: auto
+
+# 验证命令
+commands:
+  # 检查代码风格
+  lint: "pnpm run check"
+  
+  # 运行测试（如果有的话）
+  test: ""  # 暂时留空，让 AI 自动检测
+  
+  # 格式化代码
+  format: ""
+
+# 忽略的文件模式
+ignore_patterns:
+  - "node_modules/**"
+  - "dist/**"
+  - "build/**"
+  - "src-tauri/target/**"
+  - "*.generated.*"
+
+# 自动修复次数限制
+auto_fix:
+  rebase: 3
+  review: 0      # review 发现问题需要人工确认
+  test: 3
+  document: 3
+  lint: 3
+  ci: 3
+
+# 从本地 AI 会话中提取用户意图
+intent:
+  enabled: true
+  threshold: 0.2
+  slack_days: 3
