@@ -9,7 +9,7 @@ commands:
   lint: "pnpm run check"
   
   # 运行测试（如果有的话）
-  test: ""  # 暂时留空，让 AI 自动检测
+  test: "pnpm run check"
   
   # 格式化代码
   format: ""
