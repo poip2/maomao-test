@@ -2,6 +2,6 @@
 
 This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
 
-## Recommended IDE Setup
+## Demo Pages
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+- `/bun` — Svelte 5 runes demo: `$state`, `$derived`, `$effect`, and simplified event handlers (`onclick`).
